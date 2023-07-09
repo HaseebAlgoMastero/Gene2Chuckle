@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>| OutPut=>Alchemy</title>
+  <link rel="icon" href="title_32x32.png" type="image">
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="gene2chuckle.png" alt=""></a>
+        </div>
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="ser"><a href="translator.html">Services</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+  <section>
+    <div class="result-title">
+      <h2>Result of the Translation</h2>
+      <p><a href="https://en.wikipedia.org/wiki/Open_reading_frame">Reading Frames</a> Retrive your amino acid sequence from your Slected frames</p>
+      <button onclick="downloadTextAsFile()" class="btn"><i class="fa-solid fa-file-arrow-down" style="color: #e1e1e1;"></i>Download your Sequence </button>
+    </div>
+  </section>
+</main>
+<main>
+  <section class="output-sequence">
+    <div class="main-output">
+      <h2>5` - 3`=>Frame</h2>
+      <div id="frame_1" class="frame-1"></div>
+      <!-- <h2>5` - 3`=>Frame-2</h2>
+      <div id="frame_2" class="frame-2"></div>
+      <h2>5` - 3`=>Frame-3</h2>
+      <div id="frame_3" class="frame-3"></div> -->
+      <a class="btn" href="translator.html">Reset</a>
+    </div>
+    <div class="output-parameters">
+      <h2>Protein Sequence Parameters</h2>
+      <div class="Yellow">
+        <div class="color"></div>
+        <p>Non-polar</p>
+        <div class="cont"></div>
+      </div>
+      <div class="green">
+        <div class="color"></div>
+        <p>Polar</p>
+        <div class="cont"></div>
+      </div>
+      <div class="blue">
+        <div class="color"></div>
+        <p>Acidic</p>
+        <div class="cont"></div>
+      </div>
+      <div class="red">
+        <div class="color"></div>
+        <p>Basic</p>
+        <div class="cont"></div>
+      </div>
+    </div>
+  </section>
+</main>
+  <script src="output.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Translator_gene2chuckle</title>
+    <link rel="icon" href="title_32x32.png" type="image">
+    <link rel="stylesheet" href="translator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="gene2chuckle.png" alt=""></a>
+            </div>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="ser"><a href="translator.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="protein-translator">
+            <div class="main-input-box">
+                <div class="input-text">
+                    <textarea name="gene-sequence" id="gene-sequence" placeholder="put your sequence in normal form without FAST Format" cols="70" rows="15"></textarea>
+                    <br>
+                    <button onclick="frame1()">Translate</button>
+                </div>
+               
+                <div class="input-parameters">
+                    <h2>DNA Strands</h2>
+                    <div class="check">
+                        <p><i class="fa-solid fa-square-check" style="color: black;"></i>Forward Strand</p>
+                        <p><i class="fa-solid fa-square-check" style="color: black;"></i>Reverse Strand</p>
+                    </div>
+                    <h2 class="table">Genetic Code Table <a href="https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=tgencodes" target="blank">>>>Description</a></h2>
+                    <select id="format-select">
+                        <option value="--select-the-codon-format--">--select-the-codon-format--</option>
+                        <option value="standard">Standard</option>
+                      </select>
+                      <div class="output-format">
+                        <h2>Output Format</h2>
+                        <p><i class="fa-solid fa-square-check" style="color: black;"></i>Sequence With No Spaces </p>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
+      <script src="Combinations-generator.js"></script>
+</body>
+</html>

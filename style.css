@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Space+Grotesk:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+    .main-page{
+        display: flex;
+        position: relative;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        padding: 0px 50px;
+        padding-right: 70px;
+        height: 99vh;
+    }
+    .logo img{
+        width: 700px;
+
+    }
+    .nav{
+        background-color: rgb(23, 23, 23);
+        height: 100vh;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 52px;
+        padding-right: 72px;
+        align-items: center;
+        /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+        margin-top: 20px;
+        position: relative;
+        
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav ul li{
+        list-style-type: none;
+        padding-left: 34px;
+    }
+    nav ul li a{
+        font-size: 17px;
+        color: white;
+    }
+    nav ul li a i{
+        padding-right: 8px;
+    }
+    nav ul li.active a{
+        color: rgb(246, 172, 0);
+    
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: black;
+    }
+    nav ul li.btn{
+        position: absolute;
+        right: 42px;
+
+    }
+    .btn{
+    color: white;
+    background: linear-gradient(90deg, #ff7b00,#ffa53d);
+    padding: 8px 34px;
+    border-radius: 99em;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+    max-width: 100px;
+    text-align: center;
+
+}
+
+.btn:hover{
+    box-shadow: 0px 30px 7px -15px white;
+
+}
+.content{
+    height: 600px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.content .btn a{
+    text-decoration: none;
+    color: antiquewhite;    
+}
+.content .btn{   
+    position: absolute;
+    top: 470px;
+}
+.content p{
+    width: 95%;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+}
+.content h2{
+    font-size: 65px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(242, 172, 0);
+}
+
+.contact{
+    padding-left: 50px;
+}
+.contact p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    
+}
+.contact p i{
+    padding-right: 8px;
+    
+}
+

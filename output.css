@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Space+Grotesk:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 52px;
+    padding-right: 72px;
+    align-items: center;
+    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+nav .logo a img{
+    width: 500px;
+    height: 100px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding-left: 34px;
+
+}
+nav ul li a{
+    font-size: 17px;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+nav ul li.active a{
+    color:#3b3dbd ;
+
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+nav ul li.ser a:hover{
+  color:#3b3dbd ;
+
+}
+.btn{
+    color: white;
+    background: linear-gradient(90deg, #3b3dbd,#3e82da);
+    padding: 8px 34px;
+    border-radius: 99em;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+    box-shadow: 0px 30px 7px -15px #3e82da;
+}
+.result-title{
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.result-title h2{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 30px;
+}
+.result-title p{
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.result-title button{
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  font-family: 'Space Grotesk', sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+}
+.result-title button i{
+  padding-right: 8px;
+
+}
+.output-sequence{
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-between;
+  padding-right: 200px;
+}
+.output-sequence a{
+  position: relative;
+  top: 32px;
+}
+.main-output{
+  margin-top: 10px;
+  width:50%;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.frame-1,.frame-2,.frame-3{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border: 2px solid blueviolet;
+
+}
+
+.main-output h2{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 30px;
+}
+.highlight-2 {
+  background-color: yellow;
+  font-weight: bold;
+}
+.highlight-3 {
+  background-color: green;
+  font-weight: bold;
+}
+.highlight-4 {
+  background-color: blue;
+  font-weight: bold;
+}
+.highlight-5 {
+  background-color: red;
+  font-weight: bold;
+}
+.highlight-6 {
+  background-color: grey;
+  font-weight: bold;
+}
+
+.highlight-dash {
+  color: red;
+  font-style: italic;
+}
+
+.output-parameters{
+  width: 250px;
+  
+}
+.output-parameters h2{
+  width: 350px;
+  font-family: 'Space Grotesk', sans-serif;
+  
+}
+.Yellow,.green,.blue,.red{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.color{
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.Yellow .color{
+  background-color: yellow;
+  
+  
+}
+.green .color{
+  background-color: green;
+
+}
+.blue .color{
+  background-color:blue ;
+
+}
+.red .color{
+  background-color: red;
+
+}
+
+
